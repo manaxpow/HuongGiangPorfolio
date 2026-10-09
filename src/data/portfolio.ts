@@ -57,14 +57,54 @@ export const stats = [
 
 export const skills = {
   hard: [
-    "Marketing campaign planning",
-    "Marketing strategy",
-    "Project management",
-    "Social media management",
-    "Content & video production",
-    "Trade activation & CTKM",
-    "POSM production & supplier coordination",
-    "Data analytics & reporting",
+    {
+      name: "Social media management",
+      icon: "Share2",
+      description:
+        "Multi-platform operations — content calendars, community, and analytics across TikTok, Facebook, YouTube, Instagram, X and Xiaohongshu.",
+    },
+    {
+      name: "Content & video production",
+      icon: "Video",
+      description:
+        "Script → shoot → edit short-form content end to end. AI tools (CapCut, Hypic, ChatGPT, Gemini) baked into the workflow.",
+    },
+    {
+      name: "Marketing campaign planning",
+      icon: "Target",
+      description:
+        "Full-funnel campaign design — objectives, audience, channel mix, timeline, budget and measurement.",
+    },
+    {
+      name: "Marketing strategy",
+      icon: "Lightbulb",
+      description:
+        "Positioning, messaging and channel strategy tied to real business outcomes, not vanity metrics.",
+    },
+    {
+      name: "Project management",
+      icon: "ListChecks",
+      description:
+        "Owning timelines, stakeholders and deliverables across multi-team launches — from brief to wrap-up report.",
+    },
+    {
+      name: "Data analytics & reporting",
+      icon: "BarChart3",
+      description:
+        "Turning platform metrics (views, reach, CPL, conversion) into next-week actions and monthly reports.",
+    },
+    {
+      name: "Trade activation & CTKM",
+      icon: "Tag",
+      description:
+        "In-store, on-pack and field activations that drive trials, sell-through and on-ground engagement.",
+    },
+    {
+      name: "POSM & supplier coordination",
+      icon: "PackageOpen",
+      description:
+        "Briefing, sampling and managing suppliers for print and physical POSM — on brief, on time, on budget.",
+    },
   ],
   soft: [
     "Quick learner",
@@ -76,18 +116,18 @@ export const skills = {
     "Creative problem solving",
   ],
   tools: [
-    "Canva",
-    "CapCut",
-    "Hypic",
-    "ModApp",
-    "ChatGPT",
-    "Gemini",
-    "Notion",
-    "Excel",
-    "PowerPoint",
-    "Meta Ads",
-    "Google Analytics",
-    "TikTok Studio",
+    { name: "Canva", icon: "Palette" },
+    { name: "CapCut", icon: "Film" },
+    { name: "Hypic", icon: "Wand2" },
+    { name: "ModApp", icon: "Smartphone" },
+    { name: "ChatGPT", icon: "Bot" },
+    { name: "Gemini", icon: "Atom" },
+    { name: "Notion", icon: "Notebook" },
+    { name: "Excel", icon: "FileSpreadsheet" },
+    { name: "PowerPoint", icon: "Presentation" },
+    { name: "Meta Ads", icon: "Megaphone" },
+    { name: "Google Analytics", icon: "LineChart" },
+    { name: "TikTok Studio", icon: "Music2" },
   ],
 };
 
